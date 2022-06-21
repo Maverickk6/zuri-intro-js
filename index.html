@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+        padding: 20px;
+        }
+        
+        p, h2,h3 {
+            margin: 5px auto;
+            padding: 4px;
+            background-color: rgb(240, 220, 220);
+        }
+    </style>
+  </head>
+  <body>
+    <h1>My attributes</h1>
+    
+
+
+    <script>
+      // Create element:
+      const name = document.createElement("h2");
+      name.innerText = "Name: My Name is Edidiong";
+    
+      const height = document.createElement("h3");
+      height.innerText = "Height: My Height is 2.2m";
+      
+      const country = document.createElement("h3")
+      country.innerText = "My country is Nigeria"
+
+      document.body.appendChild(name);
+      document.body.appendChild(height);
+      document.body.appendChild(country);
+    </script>
+  </body>
+</html>
